@@ -1,0 +1,12 @@
+# Nmap 7.98 scan initiated Tue Feb 17 12:07:56 2026 as: nmap -sT -oN tcp_scan.txt 192.168.1.1
+Nmap scan report for gpon.net (192.168.1.1)
+Host is up (0.0070s latency).
+Not shown: 996 closed tcp ports (conn-refused)
+PORT    STATE    SERVICE
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 08:F6:06:B1:5E:B2 (zte)
+
+# Nmap done at Tue Feb 17 12:08:00 2026 -- 1 IP address (1 host up) scanned in 4.43 seconds

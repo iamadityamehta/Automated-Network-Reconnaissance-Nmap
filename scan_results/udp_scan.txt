@@ -1,0 +1,10 @@
+# Nmap 7.98 scan initiated Tue Feb 17 12:08:50 2026 as: nmap -sU -oN udp_scan.txt 192.168.1.1
+Nmap scan report for gpon.net (192.168.1.1)
+Host is up (0.0059s latency).
+Not shown: 998 closed udp ports (port-unreach)
+PORT   STATE         SERVICE
+53/udp open          domain
+67/udp open|filtered dhcps
+MAC Address: 08:F6:06:B1:5E:B2 (zte)
+
+# Nmap done at Tue Feb 17 12:10:55 2026 -- 1 IP address (1 host up) scanned in 125.17 seconds
