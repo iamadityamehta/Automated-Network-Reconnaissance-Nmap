@@ -1,0 +1,17 @@
+Network Scanning using Nmap
+
+Target Selected: 192.168.1.1 (Router Gateway)
+
+Scans Performed:
+1. SYN Scan
+2. TCP Connect Scan
+3. UDP Scan
+
+Automation:
+Python script (aditya_nmap_scan.py) was used to automate the scanning process using python-nmap library.
+
+Outputs Generated:
+- syn_scan.txt
+- tcp_scan.txt
+- udp_scan.txt
+- Aditya_Mehta_Week1_Nmap_Scan.txt

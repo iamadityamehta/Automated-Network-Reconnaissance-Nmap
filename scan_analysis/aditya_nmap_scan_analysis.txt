@@ -1,0 +1,24 @@
+Nmap Scan Report
+Name: Aditya Mehta
+Target: example.com
+Scan Start Time: 2026-02-17 12:41:47.500425
+Scan End Time: 2026-02-17 12:42:45.652184
+Scan Duration: 0:00:58.151759
+
+Host: 104.18.26.120
+State: up
+Protocol: tcp
+Port: 80	Service: http
+Port: 443	Service: http
+Port: 8080	Service: http
+Port: 8443	Service: http
+
+Observation:
+Port 80 is open which indicates HTTP service is running.
+Port 443 is open which indicates HTTPS secure service.
+This may expose the system to web-based vulnerabilities if misconfigured.
+
+Recommendation:
+Ensure firewall rules are configured properly.
+Disable unused ports to minimize attack surface.
+Implement regular vulnerability scanning.
