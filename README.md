@@ -50,3 +50,8 @@ The objective of this task was to perform network scanning on an authorized targ
 ## 🛡️ Outcome
 
 Successfully performed network reconnaissance and identified open ports, active services, and potential security vulnerabilities on the target system using automated Nmap scanning techniques.
+
+### 👨‍💻 Author
+Aditya Mehta  
+B.E. IT | Cybersecurity Enthusiast  
+
